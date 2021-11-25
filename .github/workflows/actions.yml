@@ -1,0 +1,5 @@
+name: "actions retagging test"
+on: ["push"]
+jobs:
+    retag:
+        using: "fack69/gh-retag@v1"
